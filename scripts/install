@@ -46,7 +46,7 @@ else
 	sudo usermod -aG docker admin
 	newgrp docker
 fi
-sudo service docker restart
+# sudo service docker restart
 
 # Create Docker container
 if [ "$volume" = "Yes" ];
