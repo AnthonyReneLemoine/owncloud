@@ -54,7 +54,7 @@ then
 #	sudo mkdir -p $volume1
 	command+=" -v /home/owncloud/apps:/var/www/html/apps -v /home/owncloud/config:/var/www/html/config -v /home/owncloud/data:/var/www/html/data"
 fi
-sudo yunohost app setting $app skipped_uris
+# sudo yunohost app setting $app skipped_uris
 
 if [ "$autostart" = "Yes" ];
 then

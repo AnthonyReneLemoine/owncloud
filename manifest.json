@@ -1,9 +1,9 @@
 {
-    "name": "Docker Owncloud:8.0.9",
-    "id": "Owncloud",
+    "name": "Docker Ownclud:8.0.9",
+    "id": "owncloud",
     "description": {
-        "en": "Onwcloud",
-        "fr": "Onwcloud"
+        "en": "Template package for a Dockerized YunoHost application",
+        "fr": "Modèle d'application dockerisée pour YunoHost"
     },
     "developer": {
         "name": "anto"
